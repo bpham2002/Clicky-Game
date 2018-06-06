@@ -12,12 +12,17 @@ class App extends Component {
     friends,
     selected: [],
     score: 0,
-    highestScore: 0
+    topScore: 0
   };
 
-  removeFriend = id => {
+  selectFriend = id => {
     var isSelected = this.state.selected.some(friend => friend.id === id);
     if(isSelected){
+      if(this.state.topScore < this.state.score){
+        this.setState({ topScore: this.state.score });
+
+      }
+      this.setState({ score: 0, selected: []});
 
     }else{
       this.setState({ score: this.state.score + 1 });
@@ -35,17 +40,20 @@ class App extends Component {
     return (
       
       <Wrapper>
-        <Navbar></Navbar>
+      <Navbar 
+      score = {this.state.score}
+      topScore = {this.state.topScore}
+      />
         <Title>Friends List</Title>
         {this.state.friends.map(friend => (
           <FriendCard
-            removeFriend={this.removeFriend}
-            id={friend.id}
-            key={friend.id}
-            name={friend.name}
-            image={friend.image}
-            occupation={friend.occupation}
-            location={friend.location}
+          selectFriend={this.selectFriend}
+          id={friend.id}
+          key={friend.id}
+          name={friend.name}
+          image={friend.image}
+          occupation={friend.occupation}
+          location={friend.location}
           />
         ))}
       </Wrapper>

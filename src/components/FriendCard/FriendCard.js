@@ -2,9 +2,9 @@ import React from "react";
 import "./FriendCard.css";
 
 const FriendCard = props => (
-    <div className="card">
+    <div className="card d-sm-inline-flex">
         <div className="img-container">
-            <img alt={props.name} src={props.image} onClick={() => props.removeFriend(props.id)} className="remove" />
+            <img alt={props.name} src={props.image} onClick={() => props.selectFriend(props.id)} className="remove" />
         </div>
         <div className="content">
             <ul>

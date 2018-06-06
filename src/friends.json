@@ -18,5 +18,68 @@
         "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
         "occupation": "Cashier",
         "location": "An Easter Island Head"
+    },
+    {
+        "id": 4,
+        "name": "Squidward",
+        "image": "http://media.idownloadblog.com/wp-content/uploads/2016/11/GIF-Banana.png",
+        "occupation": "Cashier",
+        "location": "An Easter Island Head"
+    },
+    {
+        "id": 5,
+        "name": "Squidward",
+        "image": "https://i.gifer.com/1hsU.gif",
+        "occupation": "Cashier",
+        "location": "An Easter Island Head"
+    },
+    {
+        "id": 6,
+        "name": "Squidward",
+        "image": "https://thumbs.dreamstime.com/z/banana-talking-cartoon-illustration-53635418.jpg",
+        "occupation": "Cashier",
+        "location": "An Easter Island Head"
+    },
+    {
+        "id": 7,
+        "name": "Squidward",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbUHSYxAVu1bmS5PVbL7fKxhqI03I_Kq7JlH2wZhm2G3XyQMhY",
+        "occupation": "Cashier",
+        "location": "An Easter Island Head"
+    },
+    {
+        "id": 8,
+        "name": "Squidward",
+        "image": "https://orig00.deviantart.net/4d57/f/2012/098/6/0/len__dancing_banana_gif_by_psychicphantom-d4vh4j5.gif",
+        "occupation": "Cashier",
+        "location": "An Easter Island Head"
+    },
+    {
+        "id": 9,
+        "name": "Squidward",
+        "image": "http://chilternchatter.com/wp-content/uploads/2017/11/Top-Banana-Character-600.png",
+        "occupation": "Cashier",
+        "location": "An Easter Island Head"
+    },
+    {
+        "id": 10,
+        "name": "Squidward",
+        "image": "https://illustimage.com/photo/2413.png",
+        "occupation": "Cashier",
+        "location": "An Easter Island Head"
+    },
+    {
+        "id": 11,
+        "name": "Squidward",
+        "image": "https://png.pngtree.com/element_origin_min_pic/16/11/25/75a965ac981eda7654ab884534e6d12c.jpg",
+        "occupation": "Cashier",
+        "location": "An Easter Island Head"
+    },
+    {
+        "id": 12,
+        "name": "Squidward",
+        "image": "https://png.pngtree.com/element_origin_min_pic/17/02/26/591df7432ea3c302596234703e361747.jpg",
+        "occupation": "Cashier",
+        "location": "An Easter Island Head"
     }
 ]
